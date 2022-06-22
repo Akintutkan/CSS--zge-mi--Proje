@@ -1,0 +1,60 @@
+
+/* Variables */
+:root {
+    --primary-color: #990000;
+    --secondary-color: grey;
+    --dark-color: #333333;
+    --light-color: white;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+/* Button */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary,
+.bg-primary {
+    background: var(--light-color);
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.btn-secondary,
+.bg-secondary {
+    background: var(--light-color);
+    background-color: var(--secondary-color);
+    color: var(--light-color)
+}
+
+.btn-dark,
+.bg-dark {
+    background: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+.btn-light,
+.bg-light {
+    background: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--light-color)
+}
